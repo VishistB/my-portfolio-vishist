@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.mapboxwrapper{
+    background: #0B0C10;
+    height: 110vh;
+    padding: 0.1vw;
+    border:#FDF2FE solid; 
+    box-shadow: 0px 0px 50px 5px  #AB25AD;
+}
+.code-type{
+    display: none;
+}
+#Mapboxheading{
+    margin: 0.5vh 0 10vh 0;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+}
