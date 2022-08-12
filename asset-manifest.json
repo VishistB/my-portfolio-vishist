@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio-vishist/static/css/main.84e1de48.css",
-    "main.js": "/my-portfolio-vishist/static/js/main.bd54fc63.js",
+    "main.css": "/my-portfolio-vishist/static/css/main.4ce59bcd.css",
+    "main.js": "/my-portfolio-vishist/static/js/main.11a503ab.js",
     "static/media/Mobile Dev.PNG": "/my-portfolio-vishist/static/media/Mobile Dev.b4f23e11bd633f5d0080.PNG",
     "static/media/linkedin image nobg.jpg": "/my-portfolio-vishist/static/media/linkedin image nobg.53c65567bcdccb33f3cf.jpg",
     "static/media/YTdownloader.PNG": "/my-portfolio-vishist/static/media/YTdownloader.f488cc10f0881148d4a6.PNG",
     "static/media/Quizapp.PNG": "/my-portfolio-vishist/static/media/Quizapp.24877581ab2b6138b517.PNG",
     "index.html": "/my-portfolio-vishist/index.html",
-    "main.84e1de48.css.map": "/my-portfolio-vishist/static/css/main.84e1de48.css.map",
-    "main.bd54fc63.js.map": "/my-portfolio-vishist/static/js/main.bd54fc63.js.map"
+    "main.4ce59bcd.css.map": "/my-portfolio-vishist/static/css/main.4ce59bcd.css.map",
+    "main.11a503ab.js.map": "/my-portfolio-vishist/static/js/main.11a503ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e1de48.css",
-    "static/js/main.bd54fc63.js"
+    "static/css/main.4ce59bcd.css",
+    "static/js/main.11a503ab.js"
   ]
 }
