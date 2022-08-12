@@ -5,8 +5,8 @@ export default function Mapbox() {
         <div className="mapboxwrapper">
             <h1 id="Mapboxheading">Mapbox API</h1>
             <iframe
-                height={700}
-                style={{ width: "100%" }}
+                height={600}
+                style={{ width: "80vw" }}
                 scrolling="no"
                 title="Locating map"
                 src="https://codepen.io/VishistB/embed/ExEypaB?default-tab=result"

@@ -62,7 +62,7 @@ function App() {
                     </h2>
                 </div>
                 <div id="resume">
-                    <a href="https://drive.google.com/file/d/1XDfzUAt6pUEDsRY6Z3cg0dTiNeR6Wke4/view?usp=sharing"><img src="https://snipstock.com/assets/cdn/png/9158b40e7bdbc9f91c717998388bd27f.png" width="400px"/></a>
+                    <a href="https://drive.google.com/file/d/1XDfzUAt6pUEDsRY6Z3cg0dTiNeR6Wke4/view?usp=sharing"><img src="https://snipstock.com/assets/cdn/png/9158b40e7bdbc9f91c717998388bd27f.png" width="400vw"/></a>
                     <h3><b>Resume</b></h3>
                 </div>
             </div>
