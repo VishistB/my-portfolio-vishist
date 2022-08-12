@@ -5,7 +5,9 @@
   margin:0;
   
 }
-
+body{
+  overflow-x: hidden;
+}
 .App{
   font-family: 'Montserrat', sans-serif;
   padding:0 0 2% 0;
@@ -19,6 +21,10 @@
   width: 95vw;
   position: absolute;
   top: 30%;
+  margin: 0 auto;
+}
+.vishistimg{
+  width: 200px;
 }
 .firstimage{
   background:linear-gradient( rgba(2, 13, 32,0.7), rgba(2, 13, 32,0.7) ), url('https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');

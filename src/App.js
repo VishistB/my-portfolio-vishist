@@ -4,6 +4,7 @@ import visimage from "./Assets/linkedin image nobg.jpg";
 import Typewriter  from "typewriter-effect";
 
 function App() {
+    
     return (
         <div className="App">
 
@@ -13,11 +14,12 @@ function App() {
                 <div id="details">
                     <div id="img-box">
 
-                        <img src={visimage} width="200px" />
+                        <img src={visimage} className="vishistimg" />
                     </div>
                     
                     <h2>Vishist Bhagabati</h2>
-                    <h3>Computer Engineering Sophmore</h3>
+                    <h3>Computer Engineering</h3>
+                    <h3>Sophmore</h3>
                     <div id="introsocials">
                         <a id="introlinkedin" href="https://www.linkedin.com/in/vishist-bhagabati-738398227/">
                             <img
