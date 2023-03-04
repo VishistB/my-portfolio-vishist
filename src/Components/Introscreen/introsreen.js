@@ -6,16 +6,30 @@ import React from 'react'
 import Typewriter  from "typewriter-effect";
 import styles from "./introscreen.module.css"
 
+
 function Introsreen() {
     return (
        <div className={styles.introscreen}>
             <div className={styles.introOverlay}>
                     <div className={styles.namediv}>
-                        <h1 className={styles.mynameis}>VISHIST BHAGABATI</h1>
+                    <h1 className={styles.mynameis}>
+                        <Typewriter
+                            async onInit={(typewriter)=>{
+                                typewriter
+                                    .changeDelay(50)
+                                    .typeString("VISHIST BHAGABATI")
+                                    .start()
+                            }}
+                        >
+                        VISHIST BHAGABATI
+                        </Typewriter>
+                        </h1>
                     </div>
+
                     <div className={styles.scrolldowndiv}>
                         <h2 className={styles.scrolldown}>SCROLL DOWN</h2>
                     </div>
+                    
                     <img src="https://res.cloudinary.com/dibuy1ztk/image/upload/v1677656843/Portfolio%20Website/Portfoliositepic_cn7gs9.png" className={styles.VNBpic}/>
             </div>
        </div> 
@@ -23,6 +37,7 @@ function Introsreen() {
 }
 
 export default Introsreen
+
 
 
 
