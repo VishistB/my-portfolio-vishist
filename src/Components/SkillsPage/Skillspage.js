@@ -11,7 +11,7 @@ function Skillspage() {
                         <Spline scene="https://prod.spline.design/mDHt-5l7OTQzGN0K/scene.splinecode"/>
                 </div>
                 <Marquee
-                speed={100}
+                speed={120}
                 gradient={false}
                 pauseOnHover={true}
                 direction={"right"}
@@ -22,7 +22,7 @@ function Skillspage() {
                     <h1 className={styles.skillheading}><b> Robotics </b></h1>
                 </Marquee>
                 <Marquee
-                speed={100}
+                speed={120}
                 gradient={false}
                 pauseOnHover={true}
                 

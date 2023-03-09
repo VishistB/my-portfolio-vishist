@@ -4,26 +4,20 @@ import React from 'react'
 // import { Typewriter } from "react-simple-typewriter";
 // import VBpic from "./assets/VNBpic.png"
 import Typewriter  from "typewriter-effect";
-import styles from "./introscreen.module.css"
+import styles from "./introscreen.module.css";
+import Spline from '@splinetool/react-spline';
+
 
 
 function Introsreen() {
     return (
        <div className={styles.introscreen}>
             <div className={styles.introOverlay}>
+                    <div className={styles.binarybg}>
+                    <Spline className={styles.binaryfx} scene="https://prod.spline.design/xUJ2aoOMLIwXiZ15/scene.splinecode" />
+                    </div>
                     <div className={styles.namediv}>
-                    <h1 className={styles.mynameis}>
-                        <Typewriter
-                            async onInit={(typewriter)=>{
-                                typewriter
-                                    .changeDelay(50)
-                                    .typeString("VISHIST BHAGABATI")
-                                    .start()
-                            }}
-                        >
-                        VISHIST BHAGABATI
-                        </Typewriter>
-                        </h1>
+                        <h1 className={styles.mynameis}>VISHIST BHAGABATI</h1>
                     </div>
 
                     <div className={styles.scrolldowndiv}>
