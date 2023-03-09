@@ -21,6 +21,8 @@
     backdrop-filter: blur(10px);
     font-family: 'Jost', sans-serif;
     z-index: 2;
+    
+    /* box-shadow: inset 0px 0px 20px 1px  #ea9ceb; */
 }
 .binarybg{
     width: 100%;
@@ -48,7 +50,7 @@
     /* justify-content: center; */
 }
 .scrolldown{
-    color: rgb(255, 255, 255);
+    color: rgb(195, 137, 211);
     font-size: 5rem;
 }
 .VNBpic{
@@ -71,5 +73,5 @@
 .binaryfx canvas{
     height: 100%;
     width: 50%;
-    transform: scale(1.2);
+    transform: scale(1);
 }
