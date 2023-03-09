@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import AboutMe from './Components/About-me/About-me';
-import Mapbox from './Components/Mapbox/mapbox';
 import Navbar from './Components/Navbar/Navbar';
-import Pythonproj from './Components/Python-projects/Python-projects';
+
 
 // import reportWebVitals from './reportWebVitals';
 
@@ -12,11 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Navbar/>
+    {/* <Navbar/> */}
     <App />
-    <AboutMe/>
-    <Mapbox/>
-    <Pythonproj/>
   </React.StrictMode>
 );
 
