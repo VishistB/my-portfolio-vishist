@@ -44,13 +44,13 @@
     position: absolute;
     display: flex;
     /* margin: 6% 0 0 10%; */
-    margin: 400px 0 0 10%;
+    margin: 420px 0 0 10%;
     width: 41%;
     /* transform: translate(20%, 400%); */
     /* justify-content: center; */
 }
 .scrolldown{
-    color: rgb(195, 137, 211);
+    color: rgb(252, 156, 241);
     font-size: 5rem;
 }
 .VNBpic{
@@ -63,15 +63,17 @@
 
 .binaryfx{
     height: 10%;
-    width: 10%;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* opacity: 0.5; */
 }
 
 .binaryfx canvas{
     height: 100%;
-    width: 50%;
-    transform: scale(1);
+    width: 100vw !important;
+    max-width: 100%;
+    transform: scale(0.9);
 }
