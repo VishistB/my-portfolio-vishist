@@ -14,7 +14,7 @@ function Introsreen() {
        <div className={styles.introscreen}>
             <div className={styles.introOverlay}>
                     {/* <div className={styles.binarybg}>
-                    <Spline className={styles.binaryfx} scene="https://prod.spline.design/xUJ2aoOMLIwXiZ15/scene.splinecode" />
+                        <Spline className={styles.binaryfx} scene="https://prod.spline.design/cCtXRuowMfxcxVB0/scene.splinecode" />
                     </div> */}
                     <div className={styles.namediv}>
                         <h1 className={styles.mynameis}>VISHIST BHAGABATI</h1>
