@@ -42,6 +42,11 @@ function Contactpage() {
                                     required
                                 ></textarea>
                                 <input className={styles.submit} type="submit" name="submit" value="SUBMIT"/>
+                                <div className={styles.socialswrap}>
+                                    <img className={styles.socialicons} src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png"/>
+                                    <img className={styles.socialicons} src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png"/>
+                                    <img className={styles.socialicons} src="https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-256.png"/>
+                                </div>
                             </form>
                         </div>
                         <div className={styles.resume}>

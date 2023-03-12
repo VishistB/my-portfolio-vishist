@@ -53,10 +53,10 @@
     justify-content: center;
     height: 60%;
 }
-/* .codemodel{
+.codemodel{
     height: 500px !important;
     width: 500px;
-} */
+}
 .codemodel canvas{
     height: 500px !important;
     width: 500px !important;
@@ -85,11 +85,39 @@
     }
 }
 @media (max-width:600px){
+    .Abtmodel{
+        width:100%;
+    }
     .codemodel{
+        display: flex;
+        justify-content: center;
+        height: 100% !important;
+        width: 100% !important;
         scale: 0.8;
     }
     .codemodel canvas{
+        /* height: 200px !important;
+        width: 200px !important; */
         scale: 0.8;
+        margin: 0;
+    }
+}
+@media (max-width:440px){
+    .abtmeheader{
+        font-size: 3rem;
+    }
+    .abtpara{
+        font-size: 1rem;
+    }
+    .codemodel{
+        height: 100% !important;
+        width: 100% !important;
+        scale: 1;
+    }
+    .codemodel canvas{
+        height: 200px !important;
+        width: 200px !important;
+        scale: 1;
         margin: 0;
     }
 }

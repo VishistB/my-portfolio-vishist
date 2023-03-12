@@ -28,6 +28,7 @@
 }
 .skillheaderdiv{
     margin: 0px 0 10px 0;
+    text-align: center;
 }
 
 .skillheader{
@@ -128,5 +129,10 @@
     }
     .logoimg{
         width: 100%;
+    }
+}
+@media (max-width:350px){
+    .skillheader{
+        font-size: 3rem;
     }
 }
