@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     /* align-items: */
-    background: linear-gradient( rgb(13, 2, 31,1),rgb(13, 2, 31,1), rgb(13, 2, 31,0.9), rgb(13, 2, 31,0.8), rgb(13, 2, 31,0.7), rgb(13, 2, 31,0.7) );
+    background: linear-gradient( rgb(13, 2, 31,1),rgb(13, 2, 31,1), rgb(13, 2, 31,0.9), rgb(13, 2, 31,0.8), rgb(13, 2, 31,0.7), rgb(13, 2, 31,0.7), rgb(13, 2, 31,1) );
     backdrop-filter: blur(8px);
     font-family: 'Jost', sans-serif;
     z-index: 2;
@@ -20,7 +20,7 @@
     
 }
 .abtmeheaderdiv{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .abtmeheader{
@@ -30,7 +30,7 @@
 }
 .abtrow{
     display: flex;
-
+    margin: 20px 0 0 0;
 }
 .abtpara{
     display: flex;

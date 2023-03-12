@@ -1,0 +1,106 @@
+.contactwrapper{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+}
+.introOverlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: */
+    background:  rgb(13, 2, 31,1);
+    backdrop-filter: blur(8px);
+    font-family: 'Jost', sans-serif;
+    z-index: 2;
+    text-align: center;
+    
+}
+.connectheaderdiv{
+    margin: 10px 0;
+}
+
+.connectheader{
+    color: rgb(252, 156, 241);
+    font-size: 5rem;
+    font-family: 'Jost', sans-serif;
+}
+.horizontalwrap{
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formwrap{
+    /* background: rgb(2, 11, 45,0); */
+    background: linear-gradient(135deg,rgb(2, 11, 45,0),rgb(2, 11, 45,0),rgba(67, 6, 127,0.3),rgb(67, 6, 127));
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px rgb(252, 156, 241) solid;
+    
+}
+.uform{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    margin: auto 0;
+}
+.inp{
+    width: 60%;
+    height: 30px;
+    border: solid 1px rgb(252, 156, 241) ;
+    background: rgb(13, 2, 31,0);
+    color: aliceblue;
+    border-radius: 2px;
+    margin: 10px 30px;
+    padding: 0 3px;
+}
+.inpa{
+    width: 80%;
+    height: 200px ;
+    border: solid 1px rgb(252, 156, 241) ;
+    background: rgb(13, 2, 31,0.5);
+    color: aliceblue;
+    border-radius: 2px;
+    resize: none;
+    margin: 10px 30px;
+    padding: 0 3px;
+}
+.submit{
+    background: rgba(67, 6, 127,1) ;
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    margin: 10px auto;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 0 2px;
+    transition: 0.3s all;
+    
+    border: none ;
+}
+.submit:hover{
+    background: rgb(4, 215, 230) ;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 10vw 0 2vw; */
+    background-color: yellow;
+    border-radius: 10px ;
+    padding: 1vw 0;
+    transition: all 0.5s;
+    height: 350px;
+  }
+.resume:hover{
+    transform: scale(1.1);
+  }
