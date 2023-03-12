@@ -77,3 +77,49 @@
     max-width: 100%;
     transform: scale(0.9);
 }
+
+@media (max-width:900px){
+    .VNBpic{
+        width: 50vh;
+    }
+    .scrolldown{
+        font-size: 5.2vw;
+    }
+}
+@media (max-width:600px){
+    .introscreen{
+        height: 100%;
+    }
+    .namediv{
+        width: 100%;
+        /* position: static; */
+        margin: 70% 0 0 0;
+    }
+    .mynameis{
+        font-size: 5rem;
+        text-align: center;
+        z-index: 2;
+    }
+    .VNBpic{
+        position: static;
+        margin: 0 auto;
+        width: 60vh;
+    }
+    .scrolldowndiv{
+        display: none;
+    }
+}
+
+@media (max-width:490px){
+    .VNBpic{
+        position: static;
+        margin: 0 auto;
+        width: 40vh;
+        
+    }
+    .mynameis{
+        font-size: 3rem;
+        text-align: center;
+        z-index: 2;
+    }
+}
