@@ -34,28 +34,28 @@
     flex-wrap: wrap;
     width: 50%;
     position: absolute;
-    margin: 70px 0 0 10%;
+    margin: 10vh 0 0 10%;
 }
 .mynameis{
     font-family: 'Inter', sans-serif;
-    font-size: 7rem;
+    font-size: 7.5vw;
 }
 .scrolldowndiv{
     position: absolute;
     display: flex;
     /* margin: 6% 0 0 10%; */
-    margin: 420px 0 0 10%;
+    margin: 55vh 0 0 10%;
     width: 41%;
     /* transform: translate(20%, 400%); */
     /* justify-content: center; */
 }
 .scrolldown{
     color: rgb(252, 156, 241);
-    font-size: 5rem;
+    font-size: 5.2vw;
 }
 .VNBpic{
     position: absolute;
-    width: 500px;
+    width: 65vh;
     bottom: 0;
     right: 0;
     filter: brightness(1.2);
