@@ -15,7 +15,7 @@ function Contactpage() {
                         <div className={styles.formwrap}>
                             <form
                                 className={styles.uform}
-                                action="#"
+                                action="https://formspree.io/f/moqzllzp"
                                 method="POST"
                             >
                                 <input
@@ -46,10 +46,10 @@ function Contactpage() {
                                     <a href="https://www.linkedin.com/in/vishist-bhagabati-738398227/">
                                     <img className={styles.socialicons} src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png"/>
                                     </a>
-                                    <a href="https://github.com/VishistB">
+                                    <a href="https://www.instagram.com/vishistbhagabati/">
                                     <img className={styles.socialicons} src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png"/>
                                     </a>
-                                    <a href="https://www.instagram.com/vishistbhagabati/">
+                                    <a href="https://github.com/VishistB">
                                     <img className={styles.socialicons} src="https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-256.png"/>
                                     </a>
                                 </div>
