@@ -8,7 +8,7 @@ function Skillspage() {
         <>
             <div className={styles.skillsPagewrapper}>
                 <div className={styles.splinediv}>
-                        <Spline scene="https://prod.spline.design/mDHt-5l7OTQzGN0K/scene.splinecode"/>
+                        <Spline className={styles.blob} scene="https://prod.spline.design/mDHt-5l7OTQzGN0K/scene.splinecode"/>
                 </div>
                 <Marquee
                 speed={120}

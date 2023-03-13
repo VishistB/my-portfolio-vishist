@@ -41,3 +41,26 @@
     height: 100%;
     filter:brightness(0.95);
 }
+.blob{
+    transform: scale(1);
+}
+.blob canvas{
+    transform: scale(1);
+}
+
+@media (max-width: 905px){
+    .blob{
+        transform: scale(0.9);
+    }
+    .blob canvas{
+        transform: scale(0.9);
+    }
+}
+@media (max-width: 650px){
+    .blob{
+        transform: scale(0.8);
+    }
+    .blob canvas{
+        transform: scale(0.8);
+    }
+}

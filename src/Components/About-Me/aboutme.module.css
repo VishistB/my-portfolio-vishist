@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 
 .Aboutmewrap{
-    height: 100vh ;
-    
+    /* height: 100vh; */
+    min-height: 100vh;
+    /* max-height: 150%; */
     display: flex;
     flex-direction: column;
 }
 .introOverlay{
-    height: 100%;
+    /* height: 100%; */
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,6 +19,7 @@
     font-family: 'Jost', sans-serif;
     z-index: 2;
     text-align: center;
+    padding: 0 0 10px 0 ;
     
 }
 .abtmeheaderdiv{
@@ -34,7 +37,7 @@
 }
 .abtpara{
     display: flex;
-    width: 40%;
+    width: 50%;
     height: 60%;
     flex-direction: column;
     color: azure;
@@ -50,12 +53,71 @@
     justify-content: center;
     height: 60%;
 }
-/* .codemodel{
+.codemodel{
     height: 500px !important;
     width: 500px;
-} */
+}
 .codemodel canvas{
     height: 500px !important;
     width: 500px !important;
-    margin-left: 200px ;
+    margin-left: 5vw;
+}
+@media (max-width:1000px){
+
+    .introOverlay{
+        align-items: center;
+        background: linear-gradient( rgb(13, 2, 31,1),rgb(13, 2, 31,1), rgb(13, 2, 31,0.9), rgb(13, 2, 31,0.9), rgb(13, 2, 31,1), rgb(13, 2, 31,1), rgb(13, 2, 31,1) );
+    }
+    .abtrow{
+        flex-direction: column;
+        width: 80%;   
+    }
+    .abtpara{
+        width: 100%;
+        margin:0;
+    }
+    .codemodel{
+        scale: 0.9;
+    }
+    .codemodel canvas{
+        scale: 0.9;
+        margin: 0;
+    }
+}
+@media (max-width:600px){
+    .Abtmodel{
+        width:100%;
+    }
+    .codemodel{
+        display: flex;
+        justify-content: center;
+        height: 100% !important;
+        width: 100% !important;
+        scale: 0.8;
+    }
+    .codemodel canvas{
+        /* height: 200px !important;
+        width: 200px !important; */
+        scale: 0.8;
+        margin: 0;
+    }
+}
+@media (max-width:440px){
+    .abtmeheader{
+        font-size: 3rem;
+    }
+    .abtpara{
+        font-size: 1rem;
+    }
+    .codemodel{
+        height: 100% !important;
+        width: 100% !important;
+        scale: 1;
+    }
+    .codemodel canvas{
+        height: 200px !important;
+        width: 200px !important;
+        scale: 1;
+        margin: 0;
+    }
 }
