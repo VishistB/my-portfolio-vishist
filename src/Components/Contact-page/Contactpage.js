@@ -56,7 +56,7 @@ function Contactpage() {
                             </form>
                         </div>
                         <div className={styles.resume}>
-                            <a href="#">
+                            <a href="https://drive.google.com/file/d/1GvG4Xuk1rhcVTnhcIYLLeGZrGcHTVB5B/view?usp=sharing">
                                 <img
                                     src="https://snipstock.com/assets/cdn/png/9158b40e7bdbc9f91c717998388bd27f.png"
                                     width="300px"
