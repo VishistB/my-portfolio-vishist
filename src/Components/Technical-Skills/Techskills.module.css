@@ -27,12 +27,12 @@
     /* box-shadow: inset 0px 0px 20px 1px  #ea9ceb; */
 }
 .skillheaderdiv{
-    margin: 0px 0 10px 0;
+    margin: 10px 0 10px 0;
     text-align: center;
 }
 
 .skillheader{
-    color: rgb(255, 255, 255);
+    color: rgb(252, 156, 241);
     font-size: 5rem;
     font-family: 'Jost', sans-serif;
 }
@@ -68,20 +68,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgb(252, 156, 241,0);
     border-radius: 10px;
+    transition: all 0.2s;
 }
-.logobgt{
-    width: fit-content;
-    padding: 0 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.logobg:hover{
+    background: rgb(252, 156, 241,1);
+    box-shadow: rgb(255, 213, 250) 5px 5px 10px;
+    color: rgb(0, 0, 0);
 }
 .logoimg{
     width: 70px;
 }
+
 .Voverlay{
     position: absolute;
     z-index: 3;
@@ -118,14 +117,11 @@
         height: 100%;
     }
     .logobg{
-        width: 150px;
-        margin: 10px 0;
+        /* width: 150px; */
+        margin: 20px 0;
     }
-    .logobgt{
-        width: 150px;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 10px;
-        margin: 10px 0;
+    .logobg i{
+        font-size: 150px;
     }
     .logoimg{
         width: 100%;
