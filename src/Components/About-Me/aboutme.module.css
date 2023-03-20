@@ -33,7 +33,7 @@
 }
 .abtrow{
     display: flex;
-    margin: 20px 0 0 0;
+    margin: 5% 0 0 0;
 }
 .abtpara{
     display: flex;
@@ -42,7 +42,7 @@
     flex-direction: column;
     color: azure;
     font-family: 'Sono', sans-serif;
-    font-size: 1.3rem;
+    font-size:140%;
     text-align: left;
     margin: 20px 0 0 50px;
 }
