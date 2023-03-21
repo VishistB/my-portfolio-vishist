@@ -16,7 +16,7 @@ function Projects() {
                                 console.log(data.src)
                                 return (
                                     <div>
-                                        <a href="#" className={styles.projcard}>
+                                        <a href={data.link} target="_blank" rel="noopener" className={styles.projcard}>
                                             <div
                                                 style={{ background: `url(${data.src})`,backgroundPosition: "center", backgroundSize:"cover"}}
                                                 className={styles.pictureholder}
