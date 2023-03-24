@@ -43,6 +43,7 @@
 .scrolldowndiv{
     position: absolute;
     display: flex;
+    flex-direction: column;
     /* margin: 6% 0 0 10%; */
     margin: 55vh 0 0 10%;
     width: 41%;
@@ -77,6 +78,17 @@
     max-width: 100%;
     transform: scale(0.9);
 }
+.kbdown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: updown 1s linear alternate infinite; */
+}
+/* @keyframes updown {
+    0%{translate: 0px;}
+    100%{translate: 0px 10px;}
+} */
 
 @media (max-width:900px){
     .VNBpic{
