@@ -6,7 +6,7 @@ import React from 'react'
 import Typewriter  from "typewriter-effect";
 import styles from "./introscreen.module.css";
 import Spline from '@splinetool/react-spline';
-
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 
 function Introsreen() {
@@ -22,6 +22,13 @@ function Introsreen() {
 
                     <div className={styles.scrolldowndiv}>
                         <h2 className={styles.scrolldown}>SCROLL DOWN</h2>
+                        <div className={styles.kbdown}>
+                        <KeyboardDoubleArrowDownIcon
+                        sx={{
+                            fontSize: "60px"
+                        }}
+                        />
+                        </div>
                     </div>
                     
                     <img src="https://res.cloudinary.com/dibuy1ztk/image/upload/v1677656843/Portfolio%20Website/Portfoliositepic_cn7gs9.png" className={styles.VNBpic}/>
